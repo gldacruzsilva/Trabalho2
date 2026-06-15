@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const TMDB_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNGYzMWZiM2UwYTRjNTBhMGQzZWIxZDQ1MTg5Y2I1NiIsIm5iZiI6MTc4MTEwMTQ0Ni4wMjQsInN1YiI6IjZhMjk3Mzg2NjEzNDE3ZGY0NzY4MWY2OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.hPkFzoWTovldaT8Ir8imIO1YtaM7igml-awwqJfyW3E';
+const TMDB_TOKEN = import.meta.env.TOKEN;;
 
 export const tmdbApi = axios.create({
   baseURL: 'https://api.themoviedb.org/3',
