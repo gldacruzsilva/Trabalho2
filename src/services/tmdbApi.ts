@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const TMDB_TOKEN = import.meta.env.TOKEN;;
+const TMDB_TOKEN = import.meta.env.VITE_TMDB_TOKEN;;
 
 export const tmdbApi = axios.create({
   baseURL: 'https://api.themoviedb.org/3',
