@@ -59,7 +59,7 @@ language (opcional): Idioma dos resultados.
 sort_by (opcional): Criterio de ordenacao. Padrao: popularity.desc.  
 
  ### Rotas Internas (Gerenciamento da Aplicação)
-**POST /filmes**\  
+**POST /filmes**
 Salva a avaliacao pessoal e o comentario de um usuario sobre um filme especifico.  
 
 Corpo da Requisicao (JSON Body):  
@@ -88,7 +88,7 @@ Respostas:
 
 201 Created: Avaliação salva com sucesso. Retorna o objeto criado contendo um identificador unico gerado automaticamente (id).
 
-**POST /usuarios**\
+**POST /usuarios**
 Salva o cadastro ou dados de login do usuario na base de dados.
 
 Corpo da Requisicao (JSON Body):
