@@ -1,4 +1,4 @@
-# Catalogo de Filmes
+# Catálogo de Filmes
 
 Aplicação web para busca, descoberta e avaliação de filmes, consumindo a API oficial do TMDB (The Movie Database) e gerenciando dados locais de usuários e avaliações.
 
